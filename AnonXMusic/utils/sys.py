@@ -12,4 +12,4 @@ async def bot_sys_stats():
     CPU = f"{psutil.cpu_percent(interval=0.5)}%"
     RAM = f"{psutil.virtual_memory().percent}%"
     DISK = f"{psutil.disk_usage('/').percent}%"
-    return UP, CPU, RAM, DISK
+    return UP, CPU, RAM, DISK 
