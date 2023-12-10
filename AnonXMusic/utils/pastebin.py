@@ -19,3 +19,4 @@ async def AnonyBin(text):
         return
     link = BASE + resp["message"]
     return link
+ 
